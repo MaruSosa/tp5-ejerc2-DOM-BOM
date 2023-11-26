@@ -1,1 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Lilita+One&family=Tourney:wght@600&display=swap");
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #FFE000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+main {
+  flex-grow: 1;
+}
+button {
+  background-color: rgb(171, 38, 242);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  color: aliceblue;
+  font-size: 20px;
+}
+h1 {
+  font-size: 40px;
+  font-family: "Lilita One", sans-serif;
+  color: rgb(171, 38, 242);
+}
+label {
+  font-size: 20px;
+  font-family: "Lilita One", sans-serif;
+  color: black;
+}
 
